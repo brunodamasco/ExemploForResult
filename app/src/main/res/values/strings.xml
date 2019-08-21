@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Cadastro cliente</string>
+    <string name="titulo_endereco">Endereço do cliente</string>
+    <string name="titulo_dados_pessoais">Dados pessoais</string>
+    <string name="titulo_resultado">Resultado final</string>
+</resources>

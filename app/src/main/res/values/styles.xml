@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="titulo_1" parent="base">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/titulo_1</item>
+    </style>
+    <style name="titulo_2" parent="base">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/titulo_2</item>
+    </style>
+
+    <style name="edit_text" parent="base">
+        <item name="android:background">#ddffffff</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="botao_sucesso" parent="base">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="botao_cancelar" parent="base">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="botao" parent="base">
+        <item name="android:background">@android:color/holo_green_dark</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="container">
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/fundo</item>
+    </style>
+</resources>
